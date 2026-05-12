@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "clangd-lsp-proxy": {
+      "command": "uvx",
+      "args": [
+        "--from", "git+https://github.com/barbedo/clangd-lsp-proxy",
+        "clangd-lsp-proxy-mcp",
+        "--transport", "stdio"
+      ]
+    }
+  }
+}

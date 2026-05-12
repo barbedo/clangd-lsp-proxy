@@ -1,0 +1,19 @@
+{
+  "clangd": {
+    "command": "uvx",
+    "args": [
+      "--from", "git+https://github.com/barbedo/clangd-lsp-proxy",
+      "clangd-lsp-proxy"
+    ],
+    "extensionToLanguage": {
+      ".c":   "c",
+      ".cc":  "cpp",
+      ".cpp": "cpp",
+      ".cxx": "cpp",
+      ".h":   "cpp",
+      ".hh":  "cpp",
+      ".hpp": "cpp",
+      ".hxx": "cpp"
+    }
+  }
+}

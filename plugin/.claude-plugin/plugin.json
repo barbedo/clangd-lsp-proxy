@@ -1,0 +1,5 @@
+{
+  "name": "clangd-lsp-proxy",
+  "version": "0.1.0",
+  "description": "LSP proxy for clangd with runtime backend switching"
+}

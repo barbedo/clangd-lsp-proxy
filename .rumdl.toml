@@ -1,0 +1,6 @@
+#:schema https://github.com/rvben/rumdl/raw/refs/heads/main/rumdl.schema.json
+
+[MD013]
+line-length = 0
+reflow = true
+reflow-mode = "sentence-per-line"
